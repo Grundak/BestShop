@@ -324,3 +324,194 @@
     background-color: var(--color-green);
     margin-top: 60px;
 }
+
+/* ~~~~~ Section Pricing ~~~~~~ */
+
+.pricing {
+    width: 100%;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing h1 {
+    font: normal normal normal 36px/42px Raleway;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.pricing-container {
+    width: var(--container-width);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pricing-col {
+    text-align: center;
+    height: 461px;
+    width: 372px;
+    padding-top: 34px;
+}
+
+.pricing-col p{
+    font: normal normal 300 46px/2px Open Sans;
+    padding-top: 40px;
+
+    
+}
+
+.pricing-col h2{
+    font: normal normal bold 20px/1px Raleway;
+    padding-bottom: 14px;
+}
+
+.pricing-col li{
+    font: normal normal normal 14px/41px Open Sans;
+}
+
+.red.pricing-col p{
+    color: var(--color-redish);
+    padding-bottom: 80px;
+}
+
+.red.pricing-col {
+    border: 1px solid var(--color-redish);
+    border-radius: 18px;
+}
+
+.offer {
+    padding-top: 30px;
+    padding-bottom: 65px;
+    font: normal normal bold 12px/1px Raleway;
+}
+
+.li-active::before{
+    content: "";
+    height: 11px;
+    width: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url(../assets/Checkmark-2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.li-passive::before{
+    content: "";
+    height: 11px;
+    width: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url(../assets/Close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pricing-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 23px;
+    border: none;
+    color: var(--color-white);
+    font: normal normal bold 13px/41px Open Sans;
+}
+
+.blue.pricing-col {
+    border: 1px solid var(--primary-color);
+    border-radius: 18px;
+    height: 500px;
+    width: 405px;
+    box-shadow: 5px 10px 27px #07ACE629;
+}
+
+.blue.pricing-col p {
+    color: var(--primary-color);
+}
+
+.red.pricing-btn {
+    position: relative;
+    bottom: -60px;
+    background-color: var(--color-redish);
+}
+
+.blue.pricing-btn {
+    position: relative;
+    bottom: -80px;
+    background-color: var(--primary-color);
+}
+
+.green.pricing-col {
+    border: 1px solid var(--color-green);
+    border-radius: 18px;
+}
+
+.green.pricing-col p {
+    color: var(--color-green);
+}
+
+.green.pricing-btn {
+    position: relative;
+    bottom: -42px;
+    background-color: var(--color-green);
+}
+/* ~~~~~ Section Contact ~~~~~~ */
+
+.contact {
+    height: 300px;
+    background-color: var(--color-white);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    margin-top: 179px;
+    width: 896px;
+    height: 376px;
+    display: flex;
+}
+
+..contact-question {
+    width: 50%;
+}
+.contact-question h1 {
+    font: normal normal normal 49px/57px Raleway;
+    margin-bottom: 22px;
+}
+
+.contact-question p {
+    font: normal normal normal 16px/22px Open Sans;
+    margin-bottom: 42px;
+}
+
+.contact-phone-mail {
+    display: flex;
+    align-items: center;
+}
+
+.mail {
+    font: normal normal 600 16px/22px Open Sans;
+    color: var(--color-grey);
+    margin-left: 10px;
+}
+
+.phone {
+    font: normal normal 600 16px/22px Open Sans;
+    color: var(--color-grey);
+    margin-left: 10px;
+}
+
+.phone-img {
+    margin-left: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+}
